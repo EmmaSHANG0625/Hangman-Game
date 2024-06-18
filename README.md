@@ -11,19 +11,20 @@ Hangman is a classic and entertaining word-guessing game that is fun for all age
 
 ### Example Game Play
 Chooser selects the word "python" and sets 5 lives.
-Guesser starts guessing:
-Guesses 'p': Correct! Current word: p _ _ _ _ _
-Guesses 'x': Incorrect. Lives left: 4. Current word: p _ _ _ _ _
-Guesses 'y': Correct! Current word: p y _ _ _ _
-Guesses 'h': Correct! Current word: p y _ h _ _
-Guesses 'o': Correct! Current word: p y _ h o _
-Guesses 'n': Correct! Current word: p y _ h o n
-Game Result: The guesser wins by finding the word "python".
+Player starts guessing:
+- Guesses 'p': Correct! Current word: p _ _ _ _ _
+- Guesses 'x': Incorrect. Lives left: 4. Current word: p _ _ _ _ _
+- Guesses 'y': Correct! Current word: p y _ _ _ _
+- Guesses 'h': Correct! Current word: p y _ h _ _
+- Guesses 'o': Correct! Current word: p y _ h o _
+- Guesses 'n': Correct! Current word: p y _ h o n
+- Game Result: The guesser wins by finding the word "python".
 
 ## Installation & Usage
 To get started with the project, follow these steps:
 
-- copy the hangman folder and open it
+- Clone the repository:
+  git clone https://github.com/EmmaSHANG0625/Hangman-Game.git
 - Make sure you have Python 3.x installed. You can download it from python.org.
 - Run the main.py and follow the on-screen instructions.
 
